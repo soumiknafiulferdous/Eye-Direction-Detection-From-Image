@@ -1,6 +1,6 @@
 # Eye-Direction-Detection-from-Image
 
-#Features:
+# Features:
 
 1. Localization of Pupil
 2. Detection the center of the pupil
