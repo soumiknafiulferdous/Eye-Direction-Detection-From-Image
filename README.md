@@ -1,4 +1,4 @@
-# Eye-Direction-Detection-from-Image
+# Eye Direction Detection from Image
 
 ## Introduction
 Eye Direction Detection refers to the process of measuring where we look, also known as our point of gaze. These measurements are carried out by an eye Direction Detection system, that detect the eye first and then the position of the eyes.
