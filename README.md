@@ -7,7 +7,7 @@ Eye Direction Detection refers to the process of measuring where we look, also k
 For eye direction detection, we need some images containing face to take as an input.
 
 ## Steps of the Process
-The process of eye direction detection are given below:
+### The process of eye direction detection are given below:
 
 1. Process Input Image:
 Take an input image of a face.
@@ -44,5 +44,5 @@ The algorithm has four stages:
 4. Eye gazing detection of the following directions: a. Left b. Right c. Straight 
 
 ## Conclusion
-Main goal is to detect the direction of the eye. This project can identify the eye direction correctly.
+The main goal is to detect the direction of the eye. This project can identify the eye direction correctly.
 
