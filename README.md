@@ -15,7 +15,7 @@ Take an input image of a face.
 ### 2. Covert it into gray scale image: 
 Convert the image into gray scale image. We need less information for each pixel to detect eye direction. That’s why, we convert it into grey scale from colour image. We have used rgb2gray function for this process. 
 
-### 3. Apply Viola Jones method: 
+### 3. Apply Viola Jones Method: 
 The algorithm has 4 stages:
 -	Haar Features: The eye region is darker than the upper- cheeks. The nose bridge is brighter than the eyes.
 -	Creating an Integral Image
