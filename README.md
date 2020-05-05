@@ -8,26 +8,26 @@ For eye direction detection, we need some images containing face to take as an i
 
 ## Steps of the Process
 The process of eye direction detection are given below:
-1.	Process Input Image :  Take an input image of a face.
-2.   Covert into Gray Scale image : 
+
+1. Process Input Image:
+Take an input image of a face.
+
+2. Covert into Gray Scale image: 
 Convert the image into gray scale image. We need less information for each pixel to detect eye direction. That’s why, we convert it into grey scale from colour image. We have used rgb2gray function for this process. 
 
-3.   Apply Viola Jones Method: 
+3. Apply Viola Jones Method: 
 The algorithm has four stages:
--	Haar Features:   The eye region is darker than the upper- cheeks. The nose bridge is brighter than the eyes.
+-	Haar Features: The eye region is darker than the upper- cheeks. The nose bridge is brighter than the eyes.
 -	Creating an Integral Image
-
 -	Adaboost Training
+-	Cascading Classifier: On average only 0.01% of all sub-windows (faces) are positive. Equal computation time is spent on all sub-windows.
 
--	Cascading Classifier :  On average only 0.01% of all sub-windows (faces) are positive. Equal computation time is spent on all sub-windows.
-
-
-4.   Apply Hough Transformation:
+4. Apply Hough Transformation:
 -	At first, we create the accumulation space for each pixel. 
 -	Initially each cell is set to 0. 
 -	For each edge point(i,j) in the image, increment all the cells according to the equation of the centre of a circle.
--	 For each possible value that are found in the previous step, find all possible values which satisfy the equation.
--	 Then, search for the local maxima in the accumulator space. 
+-	For each possible value that are found in the previous step, find all possible values which satisfy the equation.
+-	Then, search for the local maxima in the accumulator space. 
 -	These cells represent circles that are detected by the algorithm.
 
 5. Eye Direction Detection:
@@ -44,5 +44,5 @@ The algorithm has four stages:
 4. Eye gazing detection of the following directions: a. Left b. Right c. Straight 
 
 ## Conclusion
-Our goal is to detect the direction of the eye. Our project can identify the eye direction correctly.
+Main goal is to detect the direction of the eye. This project can identify the eye direction correctly.
 
