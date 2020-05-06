@@ -1,7 +1,7 @@
 # Eye Direction Detection From Image
 
 ## Introduction
-Eye Direction Detection refers to the process of measuring where we look, also known as our point of gaze. These measurements are carried out by an eye Direction Detection system, that detect the eye first and then the position of the eyes.
+Eye Direction Detection refers to the process of measuring where we look, also known as our point of gaze. These measurements are carried out by an eye Direction Detection system, that detect the eye first and then the position of the eyes. The main goal is to detect the direction of the eye. This project can identify the eye direction correctly.
 
 ## Dataset
 For eye direction detection, we need some images containing face to take as an input.
@@ -43,6 +43,4 @@ The algorithm has 4 stages:
 3. Detect the center of the pupil
 4. Eye gazing detection of the following directions: a. Left b. Right c. Straight 
 
-## Conclusion
-The main goal is to detect the direction of the eye. This project can identify the eye direction correctly.
 
