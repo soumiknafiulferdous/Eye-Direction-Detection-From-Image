@@ -23,7 +23,7 @@ The algorithm has 4 stages:
 -	Cascading Classifier: On average only 0.01% of all sub-windows (faces) are positive. Equal computation time is spent on all sub-windows.
 
 ### 4. Apply Hough Transformation:
--	At first, we create the accumulation space for each pixel. 
+-	At first, accumulation space for each pixel is created. 
 -	Initially each cell is set to 0. 
 -	For each edge point(i,j) in the image, increment all the cells according to the equation of the centre of a circle.
 -	For each possible value that are found in the previous step, find all possible values which satisfy the equation.
