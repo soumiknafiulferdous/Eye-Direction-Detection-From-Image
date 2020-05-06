@@ -30,7 +30,7 @@ The algorithm has 4 stages:
 -	Then, search for the local maxima in the accumulator space. 
 -	These cells represent circles that are detected by the algorithm.
 
-### 5. Detect eye direction :
+### 5. Detect eye direction:
 -	The centre of Iris is takes at first. 
 -	The distance of left and right corner from the center is calculated.
 -	Check which sides distance is bigger.
@@ -38,9 +38,9 @@ The algorithm has 4 stages:
 -	if the right distance is bigger than left, then the eye is staring at left.
 
 ## Features
-1. Localize of the pupil
-2. Mark the pupil in the image
-3. Detect the center of the pupil
+1. It can localize of the pupil.
+2. Mark the pupil in the image.
+3. Detect the center of the pupil.
 4. Eye gazing detection of the following directions: a. Left b. Right c. Straight 
 
 
