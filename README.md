@@ -13,7 +13,7 @@ The process of eye direction detection are given below:
 Take an input image of a face.
 
 ### 2. Covertion of gray scale image: 
-Convert the image into gray scale image. We need less information for each pixel to detect eye direction. That’s why, we convert it into grey scale from colour image. We have used rgb2gray function for this process. 
+Convert the image into gray scale image. Less information for each pixel are needed to detect eye direction. That’s why, they are converted into grey scale image from color image. Rgb2gray function is used for this process. 
 
 ### 3. Apply Viola Jones Method: 
 The algorithm has 4 stages:
