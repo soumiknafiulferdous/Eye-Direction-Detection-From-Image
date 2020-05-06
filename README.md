@@ -34,8 +34,8 @@ The algorithm has 4 stages:
 -	The centre of Iris is takes at first. 
 -	The distance of left and right corner from the center is calculated.
 -	Check which sides distance is bigger.
--	If left distance is bigger than right distance, then the eye is staring at right and 
--	if the right distance is bigger than left, then the eye is staring at left.
+-	If left distance is bigger than right distance, then the eye is staring at right. 
+-	If the right distance is bigger than left, then the eye is staring at left.
 
 ## Features
 1. It can localize of the pupil.
