@@ -17,7 +17,7 @@ Convert the image into gray scale image. Less information for each pixel are nee
 
 ### 3. Apply Viola Jones Method: 
 The algorithm has 4 stages:
--	Haar Features: The eye region is darker than the upper- cheeks. The nose bridge is brighter than the eyes.
+-	Haar Features: The eye region is darker than the upper-cheeks. The nose bridge is brighter than the eyes.
 -	Creating an Integral Image
 -	Adaboost Training
 -	Cascading Classifier: On average only 0.01% of all sub-windows (faces) are positive. Equal computation time is spent on all sub-windows.
