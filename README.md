@@ -9,10 +9,10 @@ For eye direction detection, some images containing face to take as an input are
 ## Steps of the Process
 The process of eye direction detection are given below:
 
-### 1. Process input image:
+### 1. Take input image:
 Take an input image of a face.
 
-### 2. Covert it into gray scale image: 
+### 2. Covertion of gray scale image: 
 Convert the image into gray scale image. We need less information for each pixel to detect eye direction. That’s why, we convert it into grey scale from colour image. We have used rgb2gray function for this process. 
 
 ### 3. Apply Viola Jones Method: 
@@ -30,7 +30,7 @@ The algorithm has 4 stages:
 -	Then, search for the local maxima in the accumulator space. 
 -	These cells represent circles that are detected by the algorithm.
 
-### 5. Eye direction detection:
+### 5. Detect eye direction :
 -	The centre of Iris is takes at first. 
 -	The distance of left and right corner from the center is calculated.
 -	Check which sides distance is bigger.
