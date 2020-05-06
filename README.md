@@ -27,7 +27,7 @@ The algorithm has 4 stages:
 -	Initially each cell is set to 0. 
 -	For each edge point(i,j) in the image, increment all the cells according to the equation of the centre of a circle.
 -	For each possible value that are found in the previous step, find all possible values which satisfy the equation.
--	Then, search for the local maxima in the accumulator space. 
+-	Search for the local maxima in the accumulator space. 
 -	These cells represent circles that are detected by the algorithm.
 
 ### 5. Detect eye direction:
