@@ -47,6 +47,16 @@ This algorithm has 4 stages:
 
 ## Screenshots
 
+![1-001](https://user-images.githubusercontent.com/30154496/82124214-5642fd80-97bf-11ea-89ea-c99aecca4eb7.jpg)
+
+
+![2-001](https://user-images.githubusercontent.com/30154496/82124217-57742a80-97bf-11ea-834f-2c533ae6e1e0.jpg)
+
+
+![3-001](https://user-images.githubusercontent.com/30154496/82124218-580cc100-97bf-11ea-9c4d-811010b2b345.jpg)
+
+
+![4-001](https://user-images.githubusercontent.com/30154496/82124219-58a55780-97bf-11ea-981d-a7fb682ecf64.jpg)
 
 
 
