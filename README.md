@@ -46,7 +46,6 @@ This algorithm has 4 stages:
 5. It can also give alert if there is no face in the image. 
 
 ## Screenshots
-
 ![1-001](https://user-images.githubusercontent.com/30154496/82124214-5642fd80-97bf-11ea-89ea-c99aecca4eb7.jpg)
 
 
