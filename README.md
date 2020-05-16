@@ -43,5 +43,10 @@ This algorithm has 4 stages:
 2. Mark the pupil in the image.
 3. It can detect the center of the pupil.
 4. Eye gazing detection of the following directions: a. Left b. Right c. Straight 
+5. It can also give alert if there is no face in the image. 
+
+## Screenshots
+
+
 
 
